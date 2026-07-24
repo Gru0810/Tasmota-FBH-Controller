@@ -2,9 +2,91 @@
   "rooms":[
     {
       "id":1,
-      "name":"Wohnzimmer",
+      "Typ":"MH",
+      "code":"GB",
+      "name":"GästeBad",
       "relay":1,
-      "target":22.0
+      "target":22.8
+    }
+    {
+      "id":2,
+      "Typ":"MH",
+      "code":"BR",
+      "name":"Büro",
+      "relay":2,
+      "target":22.8
+    }
+    {
+      "id":3,
+      "Typ":"MH",
+      "code":"WZ.RZ",
+      "name":"Wohnzimmer.Randzone",
+      "relay":3,
+      "target":22.8
+    }
+    {
+      "id":4,
+      "Typ":"MH",
+      "code":"WZ.Z1",
+      "name":"Wohnzimmer.Zone1",
+      "relay":4,
+      "target":22.8
+    }
+    {
+      "id":5,
+      "Typ":"DF",
+      "code":"WZ.Z2",
+      "name":"Wohnzimmer.Zone2",
+      "relay":5,
+      "target":22.8
+    }
+    {
+      "id":6,
+      "Typ":"BR",
+      "code":"AK",
+      "name":"AbstellKammer",
+      "relay":6,
+      "target":22.8
+    }
+    {
+      "id":7,
+      "Typ":"TL",
+      "code":"WZ.Z3",
+      "name":"Wohnzimmer.Zone3",
+      "relay":7,
+      "target":22.8
+    }
+    {
+      "id":8,
+      "Typ":"BR",
+      "code":"SZ",
+      "name":"Schlafzimmer",
+      "relay":8,
+      "target":22.8
+    }
+    {
+      "id":9,
+      "Typ":"BR",
+      "code":"BZ",
+      "name":"Badezimmer",
+      "relay":9,
+      "target":22.8
+    }
+    {
+      "id":10,
+      "Typ":"BR",
+      "code":"UZ",
+      "name":"Udo's Zimmer",
+      "relay":10,
+      "target":22.8
+    }
+    {
+      "id":11,
+      "Typ":"FIX",
+      "code":"AZ",
+      "name":"AnkleideZimmer",
+      "relay":11,
+      "target":22.8
     }
   ]
 }
