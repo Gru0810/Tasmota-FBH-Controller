@@ -1,0 +1,14 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Editor
+*.bak
+*.tmp
+*.swp
+
+# Log-Dateien
+*.log
