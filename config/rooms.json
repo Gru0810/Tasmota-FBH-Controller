@@ -1,0 +1,10 @@
+{
+  "rooms":[
+    {
+      "id":1,
+      "name":"Wohnzimmer",
+      "relay":1,
+      "target":22.0
+    }
+  ]
+}
