@@ -1,39 +1,45 @@
 # Tasmota FBH Controller
 
-## Projekt
+## Übersicht
 
-Intelligente Fußbodenheizungssteuerung auf Basis eines ESP32-S3 und Tasmota.
+Open-Source-Fußbodenheizungssteuerung auf Basis von
 
-Das Projekt benötigt keinen Raspberry Pi, keinen MQTT-Broker und keine Smart-Home-Plattform.
+- ESP32-S3
+- Tasmota
+- Berry
 
-Alle Funktionen laufen direkt auf dem ESP32.
+Die gesamte Regelung läuft lokal auf dem ESP32.
+
+Es wird kein Raspberry Pi benötigt.
+
+MQTT und Home Assistant sind optional.
+
+---
+
+## Projektziele
+
+- 10 Heizkreise
+- eigene Weboberfläche
+- OLED Display
+- PI-Regelung
+- Zeitprogramme
+- OTA
+- Statistik
+- Ventilschutz
+- Frostschutz
+
+---
 
 ## Hardware
 
 - ESP32-S3 N16R8
-- Tasmota
-- Berry
-- 12 SSR-Ausgänge
-- 12 thermoelektrische 230-V-Stellantriebe
-- OLED Display
-- zwei Taster
-- OTA Updates
+- SSD1306 OLED
+- 3  4-Kanal SSR
+- 10 Stellantriebe 230 V
+- Power Supply Modul, HLK-PM01 AC DC 220V auf 5V
 
-## Geplante Funktionen
-
-- 12 Heizkreise
-- PI-Regelung
-- eigene Weboberfläche
-- Zeitprogramme
-- Sommerbetrieb
-- Frostschutz
-- Ventilschutz
-- Handbetrieb
-- Statistik
-- später MQTT-Unterstützung
+---
 
 ## Projektstatus
 
-Version 0.1
-
-Projektaufbau
+Version 0.1.0
