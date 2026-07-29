@@ -1,0 +1,31 @@
+{
+  "version": "1.1",
+
+  "relay_outputs": [
+    { "relay": 1,  "gpio": 3,  "enabled": true },
+    { "relay": 2,  "gpio": 4,  "enabled": true },
+    { "relay": 3,  "gpio": 5,  "enabled": true },
+    { "relay": 4,  "gpio": 6,  "enabled": true },
+    { "relay": 5,  "gpio": 7,  "enabled": true },
+    { "relay": 6,  "gpio": 8,  "enabled": true },
+    { "relay": 7,  "gpio": 9,  "enabled": true },
+    { "relay": 8,  "gpio": 10, "enabled": true },
+    { "relay": 9,  "gpio": 11, "enabled": true },
+    { "relay": 10, "gpio": 12, "enabled": true },
+    { "relay": 11, "gpio": 14, "enabled": false },
+    { "relay": 12, "gpio": 15, "enabled": false }
+  ],
+
+  "onewire": {
+    "gpio": 13
+  },
+
+  "i2c": {
+    "sda": 17,
+    "scl": 18
+  },
+
+  "status_led": {
+    "gpio": 48
+  }
+}

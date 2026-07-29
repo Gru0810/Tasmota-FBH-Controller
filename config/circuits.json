@@ -1,0 +1,143 @@
+{
+  "version": "1.0",
+
+  "circuits": [
+
+    {
+      "id": "GB-01",
+      "room": "GB",
+      "zone": "Hauptkreis",
+      "relay": 1,
+      "actuator_type": "MH",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+      "id": "BU-01",
+      "room": "BU",
+      "zone": "Hauptkreis",
+      "relay": 2,
+      "actuator_type": "BR",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+      "id": "WZ-01",
+      "room": "WZ",
+      "zone": "Randzone",
+      "relay": 3,
+      "actuator_type": "MH",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+      "id": "WZ-02",
+      "room": "WZ",
+      "zone": "Zone1",
+      "relay": 4,
+      "actuator_type": "MH",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+      "id": "WZ-03",
+      "room": "WZ",
+      "zone": "Zone2",
+      "relay": 5,
+      "actuator_type": "MH",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+      "id": "WZ-04",
+      "room": "WZ",
+      "zone": "Zone3",
+      "relay": 6,
+      "actuator_type": "MH",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+      "id": "AK-01",
+      "room": "AK",
+      "zone": "Hauptkreis",
+      "relay": 7,
+      "actuator_type": "BR",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+      "id": "SZ-01",
+      "room": "SZ",
+      "zone": "Hauptkreis",
+      "relay": 8,
+      "actuator_type": "BR",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+      "id": "BZ-01",
+      "room": "BZ",
+      "zone": "Hauptkreis",
+      "relay": 9,
+      "actuator_type": "MH",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+      "id": "UZ-01",
+      "room": "UZ",
+      "zone": "Hauptkreis",
+      "relay": 10,
+      "actuator_type": "BR",
+      "enabled": true,
+      "documentation": {
+        "evernote": ""
+      }
+    },
+
+    {
+     "id":"RES-11",
+     "room":"RESERVE",
+     "zone":"Reserve",
+     "relay":11,
+     "enabled":false
+    },
+    
+    {   
+     "id":"RES-12",
+     "room":"RESERVE",
+     "zone":"Reserve",
+     "relay":12,
+     "enabled":false
+    }
+
+  ]
+}

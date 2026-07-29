@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+
+  "actuator_types": [
+
+    {
+      "id": "MH",
+      "manufacturer": "Möhlenhoff",
+      "model": "Alpha-5",
+
+      "voltage": 230,
+      "normally_closed": true,
+      "technology": "thermal",
+
+      "open_time_sec": 180,
+      "close_time_sec": 180,
+
+      "min_on_time_sec": 600,
+
+      "feedback": false,
+
+      "documentation": {
+        "evernote": "https://share.evernote.com/note/830c3ad0-d2d9-b258-70a7-77c07ba1cf9d",
+        "manual": "",
+        "datasheet": "",
+        "image": ""
+      }
+    },
+
+    {
+      "id": "BR",
+      "manufacturer": "Buderus",
+      "model": "n.a.",
+
+      "voltage": 230,
+      "normally_closed": true,
+      "technology": "thermal",
+
+      "open_time_sec": 180,
+      "close_time_sec": 180,
+
+      "min_on_time_sec": 600,
+
+      "feedback": false,
+
+      "documentation": {
+        "evernote": "https://share.evernote.com/note/7b460dbe-e003-0791-5b9d-7378a2a521d0",
+        "manual": "",
+        "datasheet": "",
+        "image": ""
+      }
+    }
+
+  ]
+}

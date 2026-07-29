@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+
+  "system": {
+
+    "name": "FBH Controller",
+
+    "language": "de",
+
+    "timezone": "Europe/Zurich",
+
+    "temperature_unit": "C",
+
+    "controller": {
+
+      "mode": "AUTO",
+
+      "heating_detect": "SUPPLY_SENSOR"
+
+    },
+
+    "control": {
+
+      "algorithm": "PI",
+
+      "cycle_time_sec": 60,
+
+      "minimum_switch_time_sec": 600
+
+    },
+
+    "webserver": {
+
+      "enabled": true,
+
+      "port": 80
+
+    },
+
+    "communication": {
+
+      "protocol": "SENDCMD",
+
+      "heartbeat_sec": 30
+
+    },
+
+    "logging": {
+
+      "level": "INFO"
+
+    }
+
+  }
+}

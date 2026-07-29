@@ -1,92 +1,183 @@
 {
-  "rooms":[
+  "version": "1.1",
+
+  "rooms": [
+
     {
-      "id":1,
-      "Typ":"MH",
-      "code":"GB",
-      "name":"GästeBad",
-      "relay":1,
-      "target":22.8
-    }
+      "id": 1,
+      "uid": "ROOM_GB",
+      "code": "GB",
+      "name": "GästeBad",
+      "actuator_type": "MH",
+      "sensor": "GB",
+      "remote": "ROOM_GB",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 22.8,
+        "cooling": 25.5
+      }
+    },
+
     {
-      "id":2,
-      "Typ":"MH",
-      "code":"BR",
-      "name":"Büro",
-      "relay":2,
-      "target":22.8
-    }
+      "id": 2,
+      "uid": "ROOM_BU",
+      "code": "BU",
+      "name": "Büro",
+      "actuator_type": "BR",
+      "sensor": "BU",
+      "remote": "ROOM_BU",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 22.8,
+        "cooling": 25.5
+      }
+    },
+
     {
-      "id":3,
-      "Typ":"MH",
-      "code":"WZ.RZ",
-      "name":"Wohnzimmer.Randzone",
-      "relay":3,
-      "target":22.8
-    }
+      "id": 3,
+      "uid": "ROOM_WZ_RZ",
+      "code": "WZ.RZ",
+      "name": "Wohnzimmer Randzone",
+      "actuator_type": "MH",
+      "sensor": "WZ",
+      "remote": "ROOM_WZ",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 22.8,
+        "cooling": 25.5
+      }
+    },
+
     {
-      "id":4,
-      "Typ":"MH",
-      "code":"WZ.Z1",
-      "name":"Wohnzimmer.Zone1",
-      "relay":4,
-      "target":22.8
-    }
+      "id": 4,
+      "uid": "ROOM_WZ_Z1",
+      "code": "WZ.Z1",
+      "name": "Wohnzimmer Zone 1",
+      "actuator_type": "MH",
+      "sensor": "WZ",
+      "remote": "ROOM_WZ",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 22.8,
+        "cooling": 25.5
+      }
+    },
+
     {
-      "id":5,
-      "Typ":"DF",
-      "code":"WZ.Z2",
-      "name":"Wohnzimmer.Zone2",
-      "relay":5,
-      "target":22.8
-    }
+      "id": 5,
+      "uid": "ROOM_WZ_Z2",
+      "code": "WZ.Z2",
+      "name": "Wohnzimmer Zone 2",
+      "actuator_type": "MH",
+      "sensor": "WZ",
+      "remote": "ROOM_WZ",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 22.8,
+        "cooling": 25.5
+      }
+    },
+
     {
-      "id":6,
-      "Typ":"BR",
-      "code":"AK",
-      "name":"AbstellKammer",
-      "relay":6,
-      "target":22.8
-    }
+      "id": 6,
+      "uid": "ROOM_WZ_Z3",
+      "code": "WZ.Z3",
+      "name": "Wohnzimmer Zone 3",
+      "actuator_type": "MH",
+      "sensor": "WZ",
+      "remote": "ROOM_WZ",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 22.8,
+        "cooling": 25.5
+      }
+    },
+
     {
-      "id":7,
-      "Typ":"TL",
-      "code":"WZ.Z3",
-      "name":"Wohnzimmer.Zone3",
-      "relay":7,
-      "target":22.8
-    }
+      "id": 7,
+      "uid": "ROOM_AK",
+      "code": "AK",
+      "name": "Abstellkammer",
+      "actuator_type": "BR",
+      "sensor": "AK",
+      "remote": "ROOM_AK",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 20.0,
+        "cooling": 27.0
+      }
+    },
+
     {
-      "id":8,
-      "Typ":"BR",
-      "code":"SZ",
-      "name":"Schlafzimmer",
-      "relay":8,
-      "target":22.8
-    }
+      "id": 8,
+      "uid": "ROOM_SZ",
+      "code": "SZ",
+      "name": "Schlafzimmer",
+      "actuator_type": "BR",
+      "sensor": "SZ",
+      "remote": "ROOM_SZ",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 20.5,
+        "cooling": 25.5
+      }
+    },
+
     {
-      "id":9,
-      "Typ":"BR",
-      "code":"BZ",
-      "name":"Badezimmer",
-      "relay":9,
-      "target":22.8
-    }
+      "id": 9,
+      "uid": "ROOM_BZ",
+      "code": "BZ",
+      "name": "Badezimmer",
+      "actuator_type": "MH",
+      "sensor": "BZ",
+      "remote": "ROOM_BZ",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 23.5,
+        "cooling": 25.5
+      }
+    },
+
     {
-      "id":10,
-      "Typ":"BR",
-      "code":"UZ",
-      "name":"Udo's Zimmer",
-      "relay":10,
-      "target":22.8
-    }
+      "id": 10,
+      "uid": "ROOM_KZ",
+      "code": "KZ",
+      "name": "Kinderzimmer",
+      "actuator_type": "BR",
+      "sensor": "KZ",
+      "remote": "ROOM_KZ",
+      "enabled": true,
+
+      "target_temperature": {
+        "heating": 21.0,
+        "cooling": 25.5
+      }
+    },
+
     {
-      "id":11,
-      "Typ":"FIX",
-      "code":"AZ",
-      "name":"AnkleideZimmer",
-      "relay":11,
-      "target":22.8
+      "id": 11,
+      "uid": "ROOM_AZ",
+      "code": "AZ",
+      "name": "Ankleidezimmer",
+      "actuator_type": "MANUAL",
+      "sensor": "AZ",
+      "remote": "ROOM_AZ",
+      "enabled": false,
+
+      "target_temperature": {
+        "heating": 20.0,
+        "cooling": 26.0
+      }
     }
+
   ]
 }

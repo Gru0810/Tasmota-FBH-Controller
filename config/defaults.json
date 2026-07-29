@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+
+  "defaults": {
+
+    "target": {
+      "heating": 22.5,
+      "cooling": 25.5
+    },
+
+    "control": {
+      "hysteresis": 0.3,
+      "kp": 2.0,
+      "ki": 0.02
+    }
+  }
+}
